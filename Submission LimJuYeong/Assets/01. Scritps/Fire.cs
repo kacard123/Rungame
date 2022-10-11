@@ -19,17 +19,12 @@ public class Fire : MonoBehaviour
 
     void Update()
     {
-        //RaycastHit2D ray = Physics.Raycast(transform.position, transform.right, distance, isLayer);
-        //if(ray.collider != null)
-
         // 맨처음 시작할 때 불꽃의 상태인 transform.rotation.y가 0
         // 초당 스피드의 속도로 오른쪽으로 날아간다
         if (transform.rotation.y == 0)
         {
             transform.Translate(transform.right * speed * Time.deltaTime);
-
         }
-
 
     }
 

@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     // 플레이어가 사망 시 재생할 오디오 클립 
     public AudioClip deathClip;
     // 점프 힘
-    public float jumpForce = 700f;
+    public float jumpForce = 500f;
 
 
     // 누적 점프 횟수 

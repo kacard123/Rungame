@@ -21,7 +21,6 @@ public class QuestRenderer : MonoBehaviour
 
     int currentPage; //=0초기값 / 이 변수로 현재 몇 페이지에 있는지를 담는다
 
-    // Start is called before the first frame update
     void Start()
     {
         UpdateUI();
@@ -31,7 +30,7 @@ public class QuestRenderer : MonoBehaviour
     //현재 페이지에 맞는 버튼의 상태를 넣는다
     //다음에 넘어갈 페이지가 있어야 버튼에 불이 들어오게
     void UpdateUI()
-    {   //현재 페이지 앞에 데이터가 있냐 없냐
+    {   //현재 페이지 앞에 데이터의 유무
         //false가 들어오면 interactable이 안 됨
         previousPageButton.interactable = currentPage > 0;
         nextPageButton.interactable = currentPage < questData.Count - 1;
