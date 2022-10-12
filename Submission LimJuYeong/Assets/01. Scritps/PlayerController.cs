@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     // 플레이어가 사망 시 재생할 오디오 클립 
     public AudioClip deathClip;
     // 점프 힘
-    public float jumpForce = 500f;
+    public float jumpForce = 600f;
 
 
     // 누적 점프 횟수 
@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
         if (isDead) return;
 
         // 마우스 왼쪽 버튼을 눌렀으면 & 최대 점프 횟수 2회에 도달하지 않았다면,
-        if (Input.GetMouseButtonDown(0) && jumpCount < 4)
+        if (Input.GetMouseButtonDown(0) && jumpCount < 3)
         {
             // 점프 횟수 증가
             jumpCount++;

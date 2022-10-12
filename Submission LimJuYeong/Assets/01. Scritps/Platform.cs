@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// 발판으로서 필요한 동작을 담은 스크립p
+// 발판으로서 필요한 동작을 담은 스크립
 public class Platform : MonoBehaviour
 {
     // 장애물 오브젝트들을 담는 배열
@@ -18,15 +18,6 @@ public class Platform : MonoBehaviour
     // 새로운 유니티 이벤트 메서드를 확인
     private void OnEnable()
     {
-
-        // Awake()나 Start 같은 유니티 이벤트 메서드 입니다.
-        // Start() 메서드처럼 컴포넌트가 활성화될 때 자동으로
-        // 한 번 실행되는 메서드입니다. 그런데,
-        // 처음 한 번만 실행되는 Start() 메서드와 달리
-        // OnEnable() 메서드는 컴포넌트가 활성화될 때마다
-        // 매번 다시 실행되는 메서드라서, 컴포넌트를 끄고
-        // 켜는 방식으로 재실행할 수 있는 메서드입니다.
-
         // 발판을 리셋하는 처리
 
         // 밟힘 상태를 리셋
