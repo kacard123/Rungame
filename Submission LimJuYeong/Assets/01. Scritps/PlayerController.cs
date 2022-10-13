@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     //PlayerController는 플레이어 캐릭터로서
-    //Player 게임 오브젝트를 제어함.
+    //Player 게임 오브젝트를 제어
 
     // 플레이어가 사망 시 재생할 오디오 클립 
     public AudioClip deathClip;
@@ -35,18 +35,10 @@ public class PlayerController : MonoBehaviour
         playerRigidbody = GetComponent<Rigidbody2D>();
         playerAudio = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
-
     }
-
 
     void Update()
     {
-        // 사용자 입력을 감지하고 점프하는 처리
-        // 1. 현재 상황에 알맞은 애니메이션을 재생.
-        // 2. 마우스 왼쪽 클릭을 감지하고 점프
-        // 3. 마우스 왼쪽 버튼을 오래 누르면 높이 점프
-        // 4. 최대 점프 횟수에 도달하면 점프를 못하게 막기
-
         // 사망 시 더이상 처리를 진행하지 않고 종료
         if (isDead) return;
 
@@ -68,7 +60,6 @@ public class PlayerController : MonoBehaviour
             playerAudio.Play();
 
             Fire(); // 불꽃 공격
-
         }
         else if (Input.GetMouseButtonUp(0) && playerRigidbody.velocity.y > 0)
 
@@ -88,9 +79,6 @@ public class PlayerController : MonoBehaviour
             // transform.position 위치와 transform.rotation 회전으로 생성
             GameObject fire = Instantiate(firePrefab, transform.position, transform.rotation);
         }
-
-
-
 
     }
 
@@ -113,7 +101,6 @@ public class PlayerController : MonoBehaviour
         GameManager.instance.isGameover = true;
         // 게임 매니저의 게임 오버 처리 실행
         StartCoroutine(GameManager.instance.OnPlayerDead());
-        //GameManager.instance.OnPlayerDead();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -123,8 +110,8 @@ public class PlayerController : MonoBehaviour
 
         if (collision.contacts[0].normal.y > 0.7f)
         {
-            // contact : 충돌 지점들의 정보를 담는 ContactPoint 타입의 데이터를 contacts라는 배열 변수로 제공받는다.
-            // normal : 충돌 지점에서 충돌 표면의 방향(노말벡터)를 알려주는 변수.
+            // contact : 충돌 지점들의 정보를 담는 ContactPoint 타입의 데이터를 contacts라는 배열 변수로 제공
+            // normal : 충돌 지점에서 충돌 표면의 방향(노말벡터)를 알려주는 변수
             // isGrounded를 true로 변경하고, 누적 점프 횟수를
             // 0으로 리셋
             isGrounded = true;
@@ -152,37 +139,25 @@ public class PlayerController : MonoBehaviour
             case "Dead":
                 Die();
                 break;
-            // 몬스터에 닿으면 HP가 줄어든다
+            // 적에 닿으면 HP가 줄어든다
             case "Spark":
                 if (GameManager.instance.Crash() == true) Die();
                 break;
-            // 당근에 닿으면 점수가 100씩 늘어난다
+            // 아이템에 닿으면 점수가 100씩 늘어난다
             case "Carrot":
                 GameManager.instance.AddScore(100);
                 collision.gameObject.SetActive(false);
                 break;
-
             // 보너스 아이템과 플레이어가 충돌시 Hp가 1씩 늘어난다  
             case "Bonus":
                 GameManager.instance.hp += 1;
                 GameManager.instance.HpText();
                 collision.gameObject.SetActive(false);
-                // Destroy가 들어와서 GameObject가 활성화, 비활성화가
-                // 되지 못하게 방해했다
-
+                // Destroy가 들어와서 GameObject가 활성화, 비활성화가 되지 않게 방해
                 break;
             default:
                 break;
-
-
         }
     }
 }
-// 충돌! 유니티! 유니티에서 충돌은 굉장히 다양하게 사용된다.
-// 충돌을 크게 두가지로 구분한다.
-// 1.OnCollision 계열 - Enter, Stay, Exit
-// - OnCollision 계열은 두 콜라이더 끼리의 충돌에서 
-// 단 하나도 isTrigger가 체크가 되어 있지 않은 경우.
-// 2.OnTrigger계열 - Enter, Stay, Exit
-// - OnTrigger계열은 단 하나라도 isTrigger가 체크가 되어 있을 때 사용
 

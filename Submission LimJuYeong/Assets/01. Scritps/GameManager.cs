@@ -45,12 +45,8 @@ public class GameManager : MonoBehaviour
         else
         {
             // instance에 이미 다른 GameManager 오브젝트가 
-            // 할당되어 있다면...
-
-            // 씬에 두 개 이상의 GameManager 오브젝트가
-            // 존재한다는 의미 싱글턴 오브젝트는 하나만
-            // 존재해야 하므로 자신의 게임 오브젝트를
-            // 파괴
+            // 할당되어 있다면 씬에 두 개 이상의 GameManager 오브젝트가 존재해야 함
+            // 싱글턴 오브젝트는 하나만 존재해야 하므로 자신의 게임 오브젝트를 파괴
             Debug.Log("씬에 두 개 이상의 게임 매니저가 존재합니다!");
             Destroy(gameObject);
         }
@@ -62,7 +58,6 @@ public class GameManager : MonoBehaviour
         hpText.text = hpCount.ToString();
 
         hp = hpCount;
-        //scoreCountup = score;
     }
 
     // 게임오버 상태에서 게임을 재시작할 수 있게 하는 처리
@@ -73,12 +68,7 @@ public class GameManager : MonoBehaviour
         if (isGameover && Input.GetMouseButtonDown(0))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            // GetActiveScene : 현재 활성화되어있는 씬의 이름을 가져와라
-            // SceneManager.LoadScene(0);
-            // SceneManager.LoadScene("현재 씬의 이름");
-            // SceneManager.LoadScene(SceneManager.GetActiveScene().name);을 
-            // 쓰는 게 좋은 이유는 씬의 이름이 변경이 될 수 있기 때문이다.
-            // 어떠한 변수라도 대응할 수 있도록.
+            // 현재 활성화되어있는 씬의 이름을 가져오기
         }
 
         Invoke("OnPlayerDead", 3.0f); // "OnPlayerDead"함수를 3초 후에 실행한다.

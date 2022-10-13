@@ -41,7 +41,7 @@ public class Fire : MonoBehaviour
         if (other.tag == "Spark")
         {
             // 상대방 게임 오브젝트에서 RedMonsterController 컴포넌트 가져오기
-            RedMonsterController redMonsterController = other.GetComponent<RedMonsterController>();
+            EnemyController redMonsterController = other.GetComponent<EnemyController>();
 
             // 상대방으로부터 RedMonsterController 컴포넌트를 가져오는 데 성공했다면
             if (redMonsterController != null)
