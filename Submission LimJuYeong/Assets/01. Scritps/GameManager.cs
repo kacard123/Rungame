@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
 
     public void GameClear()
     {
-        Debug.Log("Game Clear");
+        Debug.Log("Game Clear!");
     }
 
 

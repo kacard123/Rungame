@@ -1,0 +1,1110 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 16266 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GitHub/Rungame/Submission LimJuYeong
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65478
+Successfully changed project path to: D:/GitHub/Rungame/Submission LimJuYeong
+D:/GitHub/Rungame/Submission LimJuYeong
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 130.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/Rungame/Submission LimJuYeong/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1b84)
+    Vendor:   NVIDIA
+    VRAM:     2988 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009326 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 220.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Domain Reload Profiling:
+	ReloadAssembly (884ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (672ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (130ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (61ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (221ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007935 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Rungame\Submission LimJuYeong\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\Rungame\Submission LimJuYeong\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 136.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.636 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1637ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (136ms)
+		EndReloadAssembly (1250ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (644ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4673 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (276.2 KB). Loaded Objects now: 5119.
+Memory consumption went from 183.0 MB to 182.8 MB.
+Total: 7.941600 ms (FindLiveObjects: 0.478600 ms CreateObjectMapping: 0.444900 ms MarkObjects: 6.779900 ms  DeleteObjects: 0.236700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27973.777573 seconds.
+  path: Assets/NewResource/New Background/frame_03_delay-0.04s.gif
+  artifactKey: Guid(5876bd2531b0d2f4aa7f1a44dc34c501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_03_delay-0.04s.gif using Guid(5876bd2531b0d2f4aa7f1a44dc34c501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d496608b43fa7f82aceb682c2bf9c73') in 0.137053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094695 seconds.
+  path: Assets/NewResource/GameOverUI/frame_02_delay-0.1s.gif
+  artifactKey: Guid(8c06063d2c36d2e468503d6913a65500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_02_delay-0.1s.gif using Guid(8c06063d2c36d2e468503d6913a65500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1fb95faa4bc4fa7408dd4c5998bd90') in 0.078214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005775 seconds.
+  path: Assets/NewResource/GameOverUI/frame_20_delay-0.1s.gif
+  artifactKey: Guid(9581ce20177a2334899e4cb74030f8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_20_delay-0.1s.gif using Guid(9581ce20177a2334899e4cb74030f8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79173b66d633871fa4ff337748f2f4a1') in 0.064192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024638 seconds.
+  path: Assets/NewResource/New Background/frame_07_delay-0.04s.gif
+  artifactKey: Guid(7f9f63eb3db7fbb4e890391ee2b7c105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_07_delay-0.04s.gif using Guid(7f9f63eb3db7fbb4e890391ee2b7c105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2552994d058db25f10c641077c48a35b') in 0.022371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023384 seconds.
+  path: Assets/NewResource/New Background/frame_09_delay-0.04s.gif
+  artifactKey: Guid(a3052e62cd54e0341bcfd5cce9bb7859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_09_delay-0.04s.gif using Guid(a3052e62cd54e0341bcfd5cce9bb7859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63d2107d2776a5bad445bcebb271a73') in 0.024809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016590 seconds.
+  path: Assets/NewResource/GameOverUI/frame_11_delay-0.1s.gif
+  artifactKey: Guid(d1229e4ec4bfa0640b26b8ca6d11cb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_11_delay-0.1s.gif using Guid(d1229e4ec4bfa0640b26b8ca6d11cb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ea2bb269c4e35f8878b1feec6f4c6f') in 0.070891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022302 seconds.
+  path: Assets/NewResource/New Background/frame_31_delay-0.04s.gif
+  artifactKey: Guid(adbb893ca20a5d442812353d227404ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_31_delay-0.04s.gif using Guid(adbb893ca20a5d442812353d227404ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3550ebab43a7fb0840d72a635071ad') in 0.023033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022461 seconds.
+  path: Assets/NewResource/GameOverUI/frame_27_delay-0.1s.gif
+  artifactKey: Guid(6521b421ab929924b90fd5381fc4e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_27_delay-0.1s.gif using Guid(6521b421ab929924b90fd5381fc4e849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3e4fcb186cfb3b8aabb235a5e127cf') in 0.058075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010802 seconds.
+  path: Assets/NewResource/GameOverUI/frame_29_delay-0.1s.gif
+  artifactKey: Guid(2151c88920c9a8d4299a662270dfcfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_29_delay-0.1s.gif using Guid(2151c88920c9a8d4299a662270dfcfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702bb44da74930a0fa55ffbfb9eb5b61') in 0.063185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001218 seconds.
+  path: Assets/01. Scritps/PlayerController.cs
+  artifactKey: Guid(70cb07c90b84343f58178c9b9331606d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01. Scritps/PlayerController.cs using Guid(70cb07c90b84343f58178c9b9331606d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cc640c34faa7f9abf6565f046fe8e8') in 0.008595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074565 seconds.
+  path: Assets/NewResource/New Background/frame_00_delay-0.04s 1.gif
+  artifactKey: Guid(ced315124ebd7fa4db36512149a136db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_00_delay-0.04s 1.gif using Guid(ced315124ebd7fa4db36512149a136db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780cceee88e7f216bef42cc1be8f3101') in 0.022946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013779 seconds.
+  path: Assets/NewResource/New Background/frame_08_delay-0.04s.gif
+  artifactKey: Guid(823868e4421fd514f9a43c08192d11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_08_delay-0.04s.gif using Guid(823868e4421fd514f9a43c08192d11c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c2c80ca417d6e4403d83e2e017d3c4') in 0.027135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026121 seconds.
+  path: Assets/06. Fonts/HBIOS-SYS.ttf
+  artifactKey: Guid(2bbae5cc33d5f8046b4c2d140c84d7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06. Fonts/HBIOS-SYS.ttf using Guid(2bbae5cc33d5f8046b4c2d140c84d7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1064ebc2ba9c8f9d6d8c6e7f31f7977') in 0.065776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017780 seconds.
+  path: Assets/NewResource/GameOverUI/frame_31_delay-0.1s.gif
+  artifactKey: Guid(a1c96fb73f56f814f8b23c2704df3acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_31_delay-0.1s.gif using Guid(a1c96fb73f56f814f8b23c2704df3acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece481309f57d152905024ec9c217244') in 0.059039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/NewResource/GameOverUI/frame_32_delay-0.1s.gif
+  artifactKey: Guid(7e19f02c6f6f6a64d82f70c13317ea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_32_delay-0.1s.gif using Guid(7e19f02c6f6f6a64d82f70c13317ea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3873bda26be0afec5f22375f2527363') in 0.060487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/01. Scritps/Fire.cs
+  artifactKey: Guid(26da3a527c98f8846a687c17f855c18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01. Scritps/Fire.cs using Guid(26da3a527c98f8846a687c17f855c18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf4e07e742cdca552ecdb33fd4396ef') in 0.007361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022370 seconds.
+  path: Assets/NewResource/GameOverUI/frame_18_delay-0.1s.gif
+  artifactKey: Guid(283aea256cba8104d95db4ae57e2871d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_18_delay-0.1s.gif using Guid(283aea256cba8104d95db4ae57e2871d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e7a1fa1bbcc0f8e13586d1cac60284') in 0.057735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031864 seconds.
+  path: Assets/NewResource/GameClearUI/frame_24_delay-0.13s.gif
+  artifactKey: Guid(6e8b2a91cfdbff6469de1d5d8c77e8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_24_delay-0.13s.gif using Guid(6e8b2a91cfdbff6469de1d5d8c77e8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e6822973de5e757364815f959649c2') in 0.039909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017215 seconds.
+  path: Assets/NewResource/GameClearUI/frame_15_delay-0.13s.gif
+  artifactKey: Guid(3efc8af8db5909c4f8d9c1c046f65a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_15_delay-0.13s.gif using Guid(3efc8af8db5909c4f8d9c1c046f65a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bf6629a2344d59263936d37d535346') in 0.027978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020176 seconds.
+  path: Assets/NewResource/GameClearUI/frame_07_delay-0.13s.gif
+  artifactKey: Guid(a7d323662067ee74e9b35004dc130de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_07_delay-0.13s.gif using Guid(a7d323662067ee74e9b35004dc130de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75c053a84c543ebcdcb5a0d655e0209') in 0.026619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021428 seconds.
+  path: Assets/NewResource/New Background/frame_29_delay-0.04s.gif
+  artifactKey: Guid(fca6faf6733e1b443b8dac020abea4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_29_delay-0.04s.gif using Guid(fca6faf6733e1b443b8dac020abea4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378abea008302ff0583539a7199ac40c') in 0.022306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014585 seconds.
+  path: Assets/05. Audio/[브금대통령] (레트로_겜보이_Cute) GameBoy of Memories [무료BGM_브금_Royalty Free Music].mp3
+  artifactKey: Guid(a9a7c6059d210e4448b6c1e79d631d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05. Audio/[브금대통령] (레트로_겜보이_Cute) GameBoy of Memories [무료BGM_브금_Royalty Free Music].mp3 using Guid(a9a7c6059d210e4448b6c1e79d631d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15003860f3fabaa79003ae00745879e8') in 0.067744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017481 seconds.
+  path: Assets/NewResource/New Background/frame_23_delay-0.04s.gif
+  artifactKey: Guid(a45984ce1337d59449dae2635f288aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_23_delay-0.04s.gif using Guid(a45984ce1337d59449dae2635f288aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d26bb5437ba2685cc90767bb1a74f77') in 0.023449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007719 seconds.
+  path: Assets/NewResource/New Background/frame_25_delay-0.04s.gif
+  artifactKey: Guid(d3006b221db2e46409cae21bea7453a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_25_delay-0.04s.gif using Guid(d3006b221db2e46409cae21bea7453a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721a5ad32ed0249edfe06efd6b3f2f55') in 0.022363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025327 seconds.
+  path: Assets/NewResource/GameOverUI/frame_01_delay-0.1s.gif
+  artifactKey: Guid(f1e96149508eeba43b0605318fa5fa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_01_delay-0.1s.gif using Guid(f1e96149508eeba43b0605318fa5fa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e2a9ccee8edb1294c3b16acb94c843') in 0.058051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009399 seconds.
+  path: Assets/NewResource/New Background/frame_15_delay-0.04s.gif
+  artifactKey: Guid(2c03c38bb722f19469c26b153f695f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_15_delay-0.04s.gif using Guid(2c03c38bb722f19469c26b153f695f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cadd4f815830763674e76537c631cd') in 0.023171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000880 seconds.
+  path: Assets/Character/Animations/EnemyHurt.anim
+  artifactKey: Guid(6d1eca749f9f840299a309e3fd0302af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/EnemyHurt.anim using Guid(6d1eca749f9f840299a309e3fd0302af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99387525aa6586021157321bfde8ec81') in 0.007619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025486 seconds.
+  path: Assets/NewResource/GameOverUI/frame_03_delay-0.1s.gif
+  artifactKey: Guid(fdc7866e39eab3b468ed22bb635d3f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_03_delay-0.1s.gif using Guid(fdc7866e39eab3b468ed22bb635d3f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74a49dae6ec2b5e1f896ec41b3a9334') in 0.091428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016232 seconds.
+  path: Assets/NewResource/GameOverUI/frame_23_delay-0.1s.gif
+  artifactKey: Guid(ae2dca7c8ffd17a40be9fab3baed1916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_23_delay-0.1s.gif using Guid(ae2dca7c8ffd17a40be9fab3baed1916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469196da30795e6b059b0312d68e2ae8') in 0.058103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014500 seconds.
+  path: Assets/NewResource/New Background/frame_27_delay-0.04s.gif
+  artifactKey: Guid(5c7f9c290565f994c93c21727baa0b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_27_delay-0.04s.gif using Guid(5c7f9c290565f994c93c21727baa0b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c82d714c787f1c5490e4a774cd3ee9') in 0.023055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014210 seconds.
+  path: Assets/NewResource/GameOverUI/frame_08_delay-0.1s.gif
+  artifactKey: Guid(3f39e742285cfbb4ca776bfb3ebbfb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_08_delay-0.1s.gif using Guid(3f39e742285cfbb4ca776bfb3ebbfb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff31adad877d3e518f9b3a0941e92125') in 0.058909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/03. Animations/GameOverUI.anim
+  artifactKey: Guid(a6d2c84d3cb3b704792630d3b0ac7ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03. Animations/GameOverUI.anim using Guid(a6d2c84d3cb3b704792630d3b0ac7ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00dea335e9ac76ef99c6c383bdd16d81') in 0.019816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/NewResource/GameOverUI/frame_37_delay-0.1s.gif
+  artifactKey: Guid(b96ca84b8e4498245868b0a8094309cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_37_delay-0.1s.gif using Guid(b96ca84b8e4498245868b0a8094309cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51191e5d1e7564d476572c416604f0ad') in 0.065055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001512 seconds.
+  path: Assets/03. Animations/GameClearUI.anim
+  artifactKey: Guid(63b8cd143edd9c7438b6a69ef201730a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03. Animations/GameClearUI.anim using Guid(63b8cd143edd9c7438b6a69ef201730a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6644c469bc5052a72d146d9ac686b6d2') in 0.005476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042738 seconds.
+  path: Assets/NewResource/GameClearUI/frame_02_delay-0.13s.gif
+  artifactKey: Guid(887ec14581b6e6e41ababc5782a2fd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_02_delay-0.13s.gif using Guid(887ec14581b6e6e41ababc5782a2fd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a13f1e208301756fdb6106e2ebd79b') in 0.031195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020078 seconds.
+  path: Assets/NewResource/MenuBox.png
+  artifactKey: Guid(64e2bf0863152294080e3d60a5b6cad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/MenuBox.png using Guid(64e2bf0863152294080e3d60a5b6cad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24b79114e4260b2ae7c1891944e65fa') in 0.038337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014627 seconds.
+  path: Assets/NewResource/New Background/frame_17_delay-0.04s.gif
+  artifactKey: Guid(e64bdfa4c23cd0f4d8376bc729486462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_17_delay-0.04s.gif using Guid(e64bdfa4c23cd0f4d8376bc729486462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dfc65aadbd02408b73c7583d178d5d') in 0.023070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019662 seconds.
+  path: Assets/08. Sprites/pngegg.png
+  artifactKey: Guid(cd17f5d7dfffda2428f6166f47f7d33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08. Sprites/pngegg.png using Guid(cd17f5d7dfffda2428f6166f47f7d33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88434a3740a6e38717c588301845d60') in 0.142738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008930 seconds.
+  path: Assets/NewResource/GameOverUI/frame_34_delay-0.1s.gif
+  artifactKey: Guid(cd9ac8ee03945b242803fa4c33e1c285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_34_delay-0.1s.gif using Guid(cd9ac8ee03945b242803fa4c33e1c285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f892101fbc59c4e64fc240cf69a136') in 0.059336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019059 seconds.
+  path: Assets/NewResource/GameClearUI/frame_25_delay-0.13s.gif
+  artifactKey: Guid(0473b3692c9a1ce4cacd26b27b7725b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_25_delay-0.13s.gif using Guid(0473b3692c9a1ce4cacd26b27b7725b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebb7c162b164dcc35a2e8bd1d21f513') in 0.034474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020864 seconds.
+  path: Assets/NewResource/New Background/frame_30_delay-0.04s.gif
+  artifactKey: Guid(cf682ba2cc852de45b93ec501d6d6695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_30_delay-0.04s.gif using Guid(cf682ba2cc852de45b93ec501d6d6695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453c2f2822852bf38f6a719b81834b82') in 0.022649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017800 seconds.
+  path: Assets/NewResource/New Background/frame_28_delay-0.04s.gif
+  artifactKey: Guid(e1d36a508679eec4d86b3c1763f024a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_28_delay-0.04s.gif using Guid(e1d36a508679eec4d86b3c1763f024a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7deb8d4f4df029f81dedd65ef50d836') in 0.022506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028399 seconds.
+  path: Assets/NewResource/GameClearUI/frame_26_delay-0.13s.gif
+  artifactKey: Guid(69926991c43487b4d967be90e1749043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_26_delay-0.13s.gif using Guid(69926991c43487b4d967be90e1749043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a5e7099865b01d0376d1a194ed850b') in 0.026257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017646 seconds.
+  path: Assets/NewResource/RetroGame.png
+  artifactKey: Guid(72f88f5d48f9cee4c81298ec8e335ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/RetroGame.png using Guid(72f88f5d48f9cee4c81298ec8e335ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d898c13c12ea1bc2087d9616d6979f0') in 0.052573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011459 seconds.
+  path: Assets/NewResource/GameClearUI/frame_13_delay-0.13s.gif
+  artifactKey: Guid(33c66843918e71343ad28a2a7af61179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_13_delay-0.13s.gif using Guid(33c66843918e71343ad28a2a7af61179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b727802f02a1318b5d3fc36a6a70b3') in 0.026883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015797 seconds.
+  path: Assets/NewResource/New Background/frame_16_delay-0.04s.gif
+  artifactKey: Guid(71a13a24001a3384fa881691757d40dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_16_delay-0.04s.gif using Guid(71a13a24001a3384fa881691757d40dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9448c17055f67484f6094cc433f9c454') in 0.023279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006285 seconds.
+  path: Assets/03. Animations/EyesBackground.anim
+  artifactKey: Guid(869fb4ad517856a49b8e8697a9431f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03. Animations/EyesBackground.anim using Guid(869fb4ad517856a49b8e8697a9431f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba30c119d06184b384b0ba96495e18e') in 0.005621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028377 seconds.
+  path: Assets/08. Sprites/Background/x22button.PNG
+  artifactKey: Guid(8bc3ea4384d407943800f57391a90930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08. Sprites/Background/x22button.PNG using Guid(8bc3ea4384d407943800f57391a90930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64161dc26edd29dfe277a5289d494c73') in 0.018905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010199 seconds.
+  path: Assets/NewResource/GameOverUI/frame_24_delay-0.1s.gif
+  artifactKey: Guid(1e9951bc008b24244aedd20a147f08a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_24_delay-0.1s.gif using Guid(1e9951bc008b24244aedd20a147f08a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bb6b5a2c9e20060e0db9be59886b0a') in 0.069096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015735 seconds.
+  path: Assets/NewResource/GameOverUI/frame_06_delay-0.1s.gif
+  artifactKey: Guid(9bfb9ecfa789b0a4c94849110c837334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_06_delay-0.1s.gif using Guid(9bfb9ecfa789b0a4c94849110c837334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfb466b5b81693241f98b670085ffd7') in 0.059833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072361 seconds.
+  path: Assets/NewResource/GameOverUI/frame_05_delay-0.1s.gif
+  artifactKey: Guid(d4eb787c90235e3408e534f2e80bb5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_05_delay-0.1s.gif using Guid(d4eb787c90235e3408e534f2e80bb5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0f748ffde01dc0ca8d44a7a73143bf') in 0.060140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001560 seconds.
+  path: Assets/NewResource/GameOverUI/frame_28_delay-0.1s.gif
+  artifactKey: Guid(3c2c07114ec758a48afc2959abb78596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_28_delay-0.1s.gif using Guid(3c2c07114ec758a48afc2959abb78596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43b034a876794f8520b43c43b4f5d24') in 0.060269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006024 seconds.
+  path: Assets/NewResource/GameOverUI/frame_36_delay-0.1s.gif
+  artifactKey: Guid(c6963ef87dc6c0b4c94a84d9e9388e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_36_delay-0.1s.gif using Guid(c6963ef87dc6c0b4c94a84d9e9388e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31150bac0be2876526d278850ed379e') in 0.060159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083425 seconds.
+  path: Assets/NewResource/GameOverUI/frame_07_delay-0.1s.gif
+  artifactKey: Guid(0465c2ce448105d42bfaaa80e7cb1918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_07_delay-0.1s.gif using Guid(0465c2ce448105d42bfaaa80e7cb1918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd594058848052f4b82a91886049276a8') in 0.062795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001440 seconds.
+  path: Assets/NewResource/GameOverUI/frame_10_delay-0.1s.gif
+  artifactKey: Guid(c937e41c82b49d04f9d950913de71738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_10_delay-0.1s.gif using Guid(c937e41c82b49d04f9d950913de71738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be02ff17df15ab4b995a1bb71a30a329') in 0.059690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016322 seconds.
+  path: Assets/NewResource/New Background/frame_26_delay-0.04s.gif
+  artifactKey: Guid(fc5e46d7a81444240a24b2501206be2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_26_delay-0.04s.gif using Guid(fc5e46d7a81444240a24b2501206be2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff2b3b35f139ba774f3a09d7d36e984') in 0.023471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016048 seconds.
+  path: Assets/NewResource/GameClearUI/frame_20_delay-0.13s.gif
+  artifactKey: Guid(4ee3b2c4600d17f47810137c0e6894e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_20_delay-0.13s.gif using Guid(4ee3b2c4600d17f47810137c0e6894e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94efe9c1e265e4df669909abec0828b1') in 0.027595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024889 seconds.
+  path: Assets/NewResource/GameClearUI/frame_09_delay-0.13s.gif
+  artifactKey: Guid(d031f0ff6adad6f4fa82d5ae4c328555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_09_delay-0.13s.gif using Guid(d031f0ff6adad6f4fa82d5ae4c328555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7feb55843e56f54dbd4371c220a02018') in 0.027217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011128 seconds.
+  path: Assets/NewResource/GameClearUI/frame_16_delay-0.13s.gif
+  artifactKey: Guid(bb56aba26c9e837459dbfbe624302b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_16_delay-0.13s.gif using Guid(bb56aba26c9e837459dbfbe624302b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2502b1ad50e28a26648aedf1658d2e') in 0.027539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001378 seconds.
+  path: Assets/03. Animations/Background.controller
+  artifactKey: Guid(2409e1396bee5d547a28246ed40d5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03. Animations/Background.controller using Guid(2409e1396bee5d547a28246ed40d5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54bc7f923f0a187efb6fcc5f0ecc9e5') in 0.008675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019373 seconds.
+  path: Assets/NewResource/GameClearUI/frame_08_delay-0.13s.gif
+  artifactKey: Guid(ed70c5371bf03a24f88899dff9dcf92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_08_delay-0.13s.gif using Guid(ed70c5371bf03a24f88899dff9dcf92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e333f38335f320417f5bf73b2f2a4d1a') in 0.027714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008305 seconds.
+  path: Assets/NewResource/GameOverUI/frame_39_delay-0.1s.gif
+  artifactKey: Guid(e954e2ecb247a9d49b04c8fc8086b671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_39_delay-0.1s.gif using Guid(e954e2ecb247a9d49b04c8fc8086b671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f20ee7fc1181604466bc8adf6f488a') in 0.059192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001220 seconds.
+  path: Assets/NewResource/GameOverUI/frame_38_delay-0.1s.gif
+  artifactKey: Guid(9ff6c794145b34548bfdd544ee5fed47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_38_delay-0.1s.gif using Guid(9ff6c794145b34548bfdd544ee5fed47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99cecb78ced2822b86f4c39b22c850ae') in 0.058722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016513 seconds.
+  path: Assets/NewResource/GameClearUI/frame_22_delay-0.13s.gif
+  artifactKey: Guid(4b8bfa6b444229f4bbd27f5cbfb89110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_22_delay-0.13s.gif using Guid(4b8bfa6b444229f4bbd27f5cbfb89110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628c92e8d6f554ca93934a36b38c3e23') in 0.026880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010743 seconds.
+  path: Assets/NewResource/GameClearUI/frame_27_delay-0.13s.gif
+  artifactKey: Guid(afbd4284e0c321c44a48741cfd03893a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_27_delay-0.13s.gif using Guid(afbd4284e0c321c44a48741cfd03893a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2b21114622c6cc2280fde5a6f43fb8') in 0.025936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009063 seconds.
+  path: Assets/NewResource/GameOverUI/frame_12_delay-0.1s.gif
+  artifactKey: Guid(f831f6dbe9a7c5f4cb7951d6db5db9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_12_delay-0.1s.gif using Guid(f831f6dbe9a7c5f4cb7951d6db5db9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ea4c8d74bf7032145f20573fad4743') in 0.058592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001744 seconds.
+  path: Assets/03. Animations/Image.controller
+  artifactKey: Guid(535e3c8846bde414bbf94241f659e72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03. Animations/Image.controller using Guid(535e3c8846bde414bbf94241f659e72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace50bed02500f5ab46bf7176e7bba2d') in 0.005733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/NewResource/GameOverUI/frame_13_delay-0.1s.gif
+  artifactKey: Guid(162413dfee5d83a44a9fe807a344bd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_13_delay-0.1s.gif using Guid(162413dfee5d83a44a9fe807a344bd2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271b179f7f2e1e5bc677b703cfbf7c85') in 0.186542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024287 seconds.
+  path: Assets/Character/Sprites/EnemyRun.png
+  artifactKey: Guid(38c1b0996c8e0457eb88644b8cb126f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Sprites/EnemyRun.png using Guid(38c1b0996c8e0457eb88644b8cb126f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6035c63ea2af3853424cf4ace38d19d9') in 0.071779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001217 seconds.
+  path: Assets/07. Prefabs/Fireball_0.prefab
+  artifactKey: Guid(8d8e3ecd99797304bb3d1682236a507b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/07. Prefabs/Fireball_0.prefab using Guid(8d8e3ecd99797304bb3d1682236a507b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329af5540ebbb3de9b54b667ddc77ac1') in 0.026796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001260 seconds.
+  path: Assets/03. Animations/Die.anim
+  artifactKey: Guid(3b1d58b759c494c9db6789a57a4a9859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03. Animations/Die.anim using Guid(3b1d58b759c494c9db6789a57a4a9859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640fc2a42ddf517f85cd96113ba23a68') in 0.005862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016077 seconds.
+  path: Assets/NewResource/New Background/frame_32_delay-0.04s.gif
+  artifactKey: Guid(0fd8f9f3b615918469e2cceba23c964d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_32_delay-0.04s.gif using Guid(0fd8f9f3b615918469e2cceba23c964d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dac1f64eb198eaf3efadcc712a7f13d') in 0.023124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027361 seconds.
+  path: Assets/NewResource/New Background/frame_34_delay-0.04s.gif
+  artifactKey: Guid(068f26be6bf0bbf428515a6526078f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_34_delay-0.04s.gif using Guid(068f26be6bf0bbf428515a6526078f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9731e152025d20c626798d6e97e3d4c') in 0.025574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005642 seconds.
+  path: Assets/03. Animations/GameOverImage.controller
+  artifactKey: Guid(eb5536a6571245246a46da1fcee685b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03. Animations/GameOverImage.controller using Guid(eb5536a6571245246a46da1fcee685b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff01033cd509f30297b3506895c6972') in 0.005784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024320 seconds.
+  path: Assets/NewResource/GameClearUI/frame_23_delay-0.13s.gif
+  artifactKey: Guid(27750f6652f1bf847b62305e4b7415c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_23_delay-0.13s.gif using Guid(27750f6652f1bf847b62305e4b7415c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488d2ceeb255a9a2d495fb5801c8719c') in 0.026321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012875 seconds.
+  path: Assets/NewResource/GameOverUI/frame_19_delay-0.1s.gif
+  artifactKey: Guid(d070ac2b60f9538408398328919e473b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_19_delay-0.1s.gif using Guid(d070ac2b60f9538408398328919e473b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa45c4c235f8961de8eb73802320f0c') in 0.058389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022954 seconds.
+  path: Assets/NewResource/New Background/frame_05_delay-0.04s.gif
+  artifactKey: Guid(01c6f7d150618ad4fade7a52827bacd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_05_delay-0.04s.gif using Guid(01c6f7d150618ad4fade7a52827bacd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93822eb7d0d02481252f34d5871c9495') in 0.041131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/03. Animations/Restart Text.controller
+  artifactKey: Guid(76d3eb8b6e6600249acb949b1eb9727b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03. Animations/Restart Text.controller using Guid(76d3eb8b6e6600249acb949b1eb9727b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f027328a09995565236acacaf2ea1b0') in 0.005803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/NewResource/GameClearUI/frame_18_delay-0.13s.gif
+  artifactKey: Guid(c4498f605c4454f448f01411a5e3880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_18_delay-0.13s.gif using Guid(c4498f605c4454f448f01411a5e3880e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53269b0cfc7da3e20bbbe05bd39d307') in 0.028955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008408 seconds.
+  path: Assets/NewResource/New Background/frame_06_delay-0.04s.gif
+  artifactKey: Guid(bb9959386edb28f4e92b5d8ce89543b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_06_delay-0.04s.gif using Guid(bb9959386edb28f4e92b5d8ce89543b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aed0ab4bf0de514d92fe091479eb2fd') in 0.035233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014194 seconds.
+  path: Assets/NewResource/GameClearUI/frame_10_delay-0.13s.gif
+  artifactKey: Guid(bbb92664bed45fd4eae798e31be8302c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_10_delay-0.13s.gif using Guid(bbb92664bed45fd4eae798e31be8302c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec1e0bc943e401b8bc3989ee9840294') in 0.027143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006745 seconds.
+  path: Assets/NewResource/GameOverUI/frame_30_delay-0.1s.gif
+  artifactKey: Guid(eb01d4704156d1b4ba66be4080ea0fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_30_delay-0.1s.gif using Guid(eb01d4704156d1b4ba66be4080ea0fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1d1b0aae54151d10f7d46fbbf48478') in 0.059360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019506 seconds.
+  path: Assets/NewResource/GameClearUI/frame_30_delay-0.13s.gif
+  artifactKey: Guid(46cd1a2717547524091772ed4b5f200a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_30_delay-0.13s.gif using Guid(46cd1a2717547524091772ed4b5f200a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4302152752f42c1d77e604cfef61ac7e') in 0.032837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013842 seconds.
+  path: Assets/NewResource/New Background/frame_18_delay-0.04s.gif
+  artifactKey: Guid(af92416f92ade8f4a84211d6ad299a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_18_delay-0.04s.gif using Guid(af92416f92ade8f4a84211d6ad299a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce59e006b48c9aa0441d48ea00e56c4') in 0.024388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031575 seconds.
+  path: Assets/Character/Animations/Enemy.controller
+  artifactKey: Guid(ed1bbb2dccb7a424a9969f916919f446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Enemy.controller using Guid(ed1bbb2dccb7a424a9969f916919f446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cd8959450a71d53cd5a21444caf7cf') in 0.008454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006302 seconds.
+  path: Assets/08. Sprites/Background/X2button.png
+  artifactKey: Guid(6d7ea37987b1da64f85affc72ace78fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08. Sprites/Background/X2button.png using Guid(6d7ea37987b1da64f85affc72ace78fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcbc44f53d9fdd2a761bc09b97e82d9') in 0.015308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005918 seconds.
+  path: Assets/NewResource/GameOverUI/frame_33_delay-0.1s.gif
+  artifactKey: Guid(b2f7288531b461a42b5d43e8008d9fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_33_delay-0.1s.gif using Guid(b2f7288531b461a42b5d43e8008d9fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb694e5603ab5d23473d39cb932eb43') in 0.063263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001094 seconds.
+  path: Assets/01. Scritps/GameManager.cs
+  artifactKey: Guid(295e11ee196874262a59562e3328ad7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01. Scritps/GameManager.cs using Guid(295e11ee196874262a59562e3328ad7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43699a35cf50a0c47ed3803fbce98780') in 0.004567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004125 seconds.
+  path: Assets/NewResource/GameClearUI/frame_31_delay-0.13s.gif
+  artifactKey: Guid(3397a8f30fa1e484781f4063e5255347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_31_delay-0.13s.gif using Guid(3397a8f30fa1e484781f4063e5255347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3188a9beca28f0966d19b14f2836d363') in 0.028150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042181 seconds.
+  path: Assets/Character/Sprites/PlayerDeath.png
+  artifactKey: Guid(75b38086a902846edbae786183b0274d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Sprites/PlayerDeath.png using Guid(75b38086a902846edbae786183b0274d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdd6f27db418c4bf6ebcad29e3b3e00') in 0.072803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014879 seconds.
+  path: Assets/NewResource/GameClearUI/frame_29_delay-0.13s.gif
+  artifactKey: Guid(9c65042682fb83e4aa06dd635d56c71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_29_delay-0.13s.gif using Guid(9c65042682fb83e4aa06dd635d56c71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cbfc49a25345825353fb6c740182e89') in 0.027181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012191 seconds.
+  path: Assets/NewResource/New Background/frame_14_delay-0.04s.gif
+  artifactKey: Guid(d7745755fbb52954890a33d936b42ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_14_delay-0.04s.gif using Guid(d7745755fbb52954890a33d936b42ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38c3388fe499d30cda406ba62d7de92') in 0.022810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017162 seconds.
+  path: Assets/NewResource/New Background/frame_01_delay-0.04s.gif
+  artifactKey: Guid(1f1312ad0c450134481ca41cb8d8ac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_01_delay-0.04s.gif using Guid(1f1312ad0c450134481ca41cb8d8ac6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd252b55e80ccf3262b7e8f45bdc4871') in 0.024682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001874 seconds.
+  path: Assets/03. Animations/RedMonster.anim
+  artifactKey: Guid(9a9ef77a5362c41519b05b7f5b2ad008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03. Animations/RedMonster.anim using Guid(9a9ef77a5362c41519b05b7f5b2ad008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854656016acb8af4d618df88caa7aebe') in 0.005297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014730 seconds.
+  path: Assets/NewResource/GameClearUI/frame_28_delay-0.13s.gif
+  artifactKey: Guid(e1ab5c1e824eb2f4788f728ed868630c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_28_delay-0.13s.gif using Guid(e1ab5c1e824eb2f4788f728ed868630c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04034a1054c32f9e3bc9c57a9b90d623') in 0.027294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024370 seconds.
+  path: Assets/NewResource/GameClearUI/frame_12_delay-0.13s.gif
+  artifactKey: Guid(3b24becdcc0a0ad45bde03785ef41fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_12_delay-0.13s.gif using Guid(3b24becdcc0a0ad45bde03785ef41fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9535c2751a10b80c84d54354f99c5051') in 0.027642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015158 seconds.
+  path: Assets/NewResource/GameOverUI/frame_22_delay-0.1s.gif
+  artifactKey: Guid(9913a4b6e8926f741bc23fb3fcd08af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_22_delay-0.1s.gif using Guid(9913a4b6e8926f741bc23fb3fcd08af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e14b5b4207ec3e2555b794e693f921') in 0.060962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000908 seconds.
+  path: Assets/Character/Animations/EnemyRun.anim
+  artifactKey: Guid(a16c2646085174726a41a2900d723bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/EnemyRun.anim using Guid(a16c2646085174726a41a2900d723bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d48454ec2c7b6cec5dcb85c90a0ba3e') in 0.001936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012204 seconds.
+  path: Assets/NewResource/GameOverUI/frame_15_delay-0.1s.gif
+  artifactKey: Guid(45e08cbeb6b3ecd49a04b902d0d29382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_15_delay-0.1s.gif using Guid(45e08cbeb6b3ecd49a04b902d0d29382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf9ef03d79c6a6ea219e295f2ef230d') in 0.060307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001142 seconds.
+  path: Assets/NewResource/GameOverUI/frame_40_delay-0.1s.gif
+  artifactKey: Guid(7f5dc6306103ca64791b8de6c91b9cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_40_delay-0.1s.gif using Guid(7f5dc6306103ca64791b8de6c91b9cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16094e9fd613e050286ff13357ada2e0') in 0.060797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005214 seconds.
+  path: Assets/NewResource/GameClearUI/frame_14_delay-0.13s.gif
+  artifactKey: Guid(0a08662218043344d90144463832f3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_14_delay-0.13s.gif using Guid(0a08662218043344d90144463832f3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c109de5e9a87c4a252e9ffe1448816c') in 0.031170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015799 seconds.
+  path: Assets/NewResource/New Background/frame_04_delay-0.04s.gif
+  artifactKey: Guid(f42c569e658201d46b47b56c7b863672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_04_delay-0.04s.gif using Guid(f42c569e658201d46b47b56c7b863672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4797ddd8fac3bc57f062033384a41f4c') in 0.024197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024518 seconds.
+  path: Assets/Character/Sprites/EnemyIdle.png
+  artifactKey: Guid(fe68c6e1242e94a9eab222e1f49440ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Sprites/EnemyIdle.png using Guid(fe68c6e1242e94a9eab222e1f49440ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4819f5943a36ede25abedfcb70d698') in 0.298977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008441 seconds.
+  path: Assets/NewResource/New Background/frame_22_delay-0.04s.gif
+  artifactKey: Guid(84e5acbd0b9695046bd5f22c31450d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_22_delay-0.04s.gif using Guid(84e5acbd0b9695046bd5f22c31450d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a911f5d7d93a9d6bf011c2705548eb') in 0.023189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006453 seconds.
+  path: Assets/Audio/jump.wav
+  artifactKey: Guid(67975c08d56ceb147bad38572d805aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/jump.wav using Guid(67975c08d56ceb147bad38572d805aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a134175789ad52f32c5357f3346f5b') in 0.019086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000734 seconds.
+  path: Assets/01. Scritps/Platform.cs
+  artifactKey: Guid(3aef9b3a8f6d545ffafe466f4c48e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01. Scritps/Platform.cs using Guid(3aef9b3a8f6d545ffafe466f4c48e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3af632ded8d5c95758ad7a1281ab5c') in 0.005696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008296 seconds.
+  path: Assets/NewResource/GameClearUI/frame_01_delay-0.13s.gif
+  artifactKey: Guid(25ae60096341cb14a90e1f670ad3a0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_01_delay-0.13s.gif using Guid(25ae60096341cb14a90e1f670ad3a0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2972491ac642e35c07c9cf9cf6362f6f') in 0.027125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023344 seconds.
+  path: Assets/NewResource/New Background/frame_12_delay-0.04s.gif
+  artifactKey: Guid(2a8b5cd464c9772458f960dd17415d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_12_delay-0.04s.gif using Guid(2a8b5cd464c9772458f960dd17415d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ad486520298333bed015f74d59971f') in 0.024183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023039 seconds.
+  path: Assets/06. Fonts/neodgm.ttf
+  artifactKey: Guid(3d277168259502e40bf354d91dc2292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/06. Fonts/neodgm.ttf using Guid(3d277168259502e40bf354d91dc2292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623270fe013fa49f5971e95c50b07264') in 0.028287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010735 seconds.
+  path: Assets/NewResource/GameClearUI/frame_03_delay-0.13s.gif
+  artifactKey: Guid(f56202bfbfa7f3349b5cbdca6c8cf87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_03_delay-0.13s.gif using Guid(f56202bfbfa7f3349b5cbdca6c8cf87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1f0d17c142dfdfcd3e3b4ee8e4da35') in 0.032441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.096293 seconds.
+  path: Assets/NewResource/TileFloatingLeftEdge.png
+  artifactKey: Guid(0507d57974dc1e348bfdce3b4c12df81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/TileFloatingLeftEdge.png using Guid(0507d57974dc1e348bfdce3b4c12df81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918312709f1d26d14b797c86ce30cfef') in 0.085982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000884 seconds.
+  path: Assets/03. Animations/Fireball.anim
+  artifactKey: Guid(b392ebb605559ad45b45badd0f5a1994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03. Animations/Fireball.anim using Guid(b392ebb605559ad45b45badd0f5a1994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7c333782fa65a3d8da81e8ffb3ae67') in 0.005392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007780 seconds.
+  path: Assets/Audio/Death.wav
+  artifactKey: Guid(e18959d46b63f3c4c8cc020a433cf848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Death.wav using Guid(e18959d46b63f3c4c8cc020a433cf848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77106ead8968480a6b4c028906da73fc') in 0.016907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076728 seconds.
+  path: Assets/NewResource/New Background/frame_20_delay-0.04s.gif
+  artifactKey: Guid(f2fb86108d51721428dff2cd98da716a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_20_delay-0.04s.gif using Guid(f2fb86108d51721428dff2cd98da716a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513499f9e4bdb0d5849a89ac0f305b20') in 0.023737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001745 seconds.
+  path: Assets/03. Animations/Player.controller
+  artifactKey: Guid(980cf9a7c6f064da79748e048c467644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03. Animations/Player.controller using Guid(980cf9a7c6f064da79748e048c467644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4360db55e979f727add3b22255885ebd') in 0.006509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033288 seconds.
+  path: Assets/NewResource/New Background/frame_02_delay-0.04s.gif
+  artifactKey: Guid(61a672c89a1b3ef499f6930ece8047e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_02_delay-0.04s.gif using Guid(61a672c89a1b3ef499f6930ece8047e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5a5b883a45d9cd2f6e0f8789ad3290') in 0.024471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013267 seconds.
+  path: Assets/NewResource/ItemBottle.png
+  artifactKey: Guid(983252390f3bc5f4aac933f1b264b169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/ItemBottle.png using Guid(983252390f3bc5f4aac933f1b264b169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589f7c0b25e7a23690605f1262aabefe') in 0.026332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017884 seconds.
+  path: Assets/NewResource/GameClearUI/frame_11_delay-0.13s.gif
+  artifactKey: Guid(fb2f5d50c73cbf246b3563a56f519a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_11_delay-0.13s.gif using Guid(fb2f5d50c73cbf246b3563a56f519a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70689767b2f1b8b74b908d456af7a9bd') in 0.026429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/03. Animations/Jump.anim
+  artifactKey: Guid(5c4a2afd477de4a4db58847b252bce05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03. Animations/Jump.anim using Guid(5c4a2afd477de4a4db58847b252bce05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b79ebcb45071a0981ff27f2a26a99a2') in 0.005438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025880 seconds.
+  path: Assets/Character/Sprites/EnemyHurt.png
+  artifactKey: Guid(93c828a03eeb34779a4373e83c7e1bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Sprites/EnemyHurt.png using Guid(93c828a03eeb34779a4373e83c7e1bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8d1201d69de8da78d1fa827a52d482') in 0.044973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3406a6e9281b7d04e1f2b8118b998199') in 0.052660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005192 seconds.
+  path: Assets/03. Animations/Run.anim
+  artifactKey: Guid(67722f2c9305c4f99808f0bf25e645be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03. Animations/Run.anim using Guid(67722f2c9305c4f99808f0bf25e645be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8898761fcb1df0a6243547edc94a95') in 0.005420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025000 seconds.
+  path: Assets/NewResource/GameOverUI/frame_17_delay-0.1s.gif
+  artifactKey: Guid(c63f6ad84f9afb1479b1733573539a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_17_delay-0.1s.gif using Guid(c63f6ad84f9afb1479b1733573539a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4816512f5759c68c38ba45ca428c67') in 0.060424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019264 seconds.
+  path: Assets/NewResource/GameClearUI/frame_19_delay-0.13s.gif
+  artifactKey: Guid(8b503cb5c07aa6047b4a7b8bce3d2f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_19_delay-0.13s.gif using Guid(8b503cb5c07aa6047b4a7b8bce3d2f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543e061bb5c131a6b837959c3127dcd7') in 0.028437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005913 seconds.
+  path: Assets/NewResource/GameOverUI/frame_35_delay-0.1s.gif
+  artifactKey: Guid(04cfee657f4126c4ba238364f1918bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_35_delay-0.1s.gif using Guid(04cfee657f4126c4ba238364f1918bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f7b452b84aa1bff3e463390dd269df') in 0.060647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001307 seconds.
+  path: Assets/01. Scritps/PlatformSpawner.cs
+  artifactKey: Guid(5ac213e4185884f24867a96b97b56955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01. Scritps/PlatformSpawner.cs using Guid(5ac213e4185884f24867a96b97b56955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84bbc3a9033e6bb2075d1b970fbf3a2') in 0.004896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001038 seconds.
+  path: Assets/03. Animations/Fireball_0.controller
+  artifactKey: Guid(82684e4faaf8d87408707f6a0dfe5ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03. Animations/Fireball_0.controller using Guid(82684e4faaf8d87408707f6a0dfe5ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6536c46378d32d44925517215e5905c7') in 0.002423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041790 seconds.
+  path: Assets/NewResource/GameOverUI/frame_04_delay-0.1s.gif
+  artifactKey: Guid(32f4b92fbfe185c479f8b4d8f359efad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_04_delay-0.1s.gif using Guid(32f4b92fbfe185c479f8b4d8f359efad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46459b79c1fa1b5f7b3ec6d8779756f4') in 0.061775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012975 seconds.
+  path: Assets/NewResource/New Background/frame_00_delay-0.04s.gif
+  artifactKey: Guid(5e55bea46822f8149920c6694693078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_00_delay-0.04s.gif using Guid(5e55bea46822f8149920c6694693078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c921308d8de15ece90473d50f26b0b') in 0.025466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018324 seconds.
+  path: Assets/Character/Sprites/TokenSpin.png
+  artifactKey: Guid(c36b0e54a8d8340759ab2f1394787f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Sprites/TokenSpin.png using Guid(c36b0e54a8d8340759ab2f1394787f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9466746604dabff5cdfdd282e578c922') in 0.072606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013876 seconds.
+  path: Assets/NewResource/GameOverUI/frame_21_delay-0.1s.gif
+  artifactKey: Guid(ca2680df8070cd441aa718c295a80e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_21_delay-0.1s.gif using Guid(ca2680df8070cd441aa718c295a80e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7073b1731684bea3e1ca6cd8f70357fa') in 0.069035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029553 seconds.
+  path: Assets/NewResource/New Background/frame_10_delay-0.04s.gif
+  artifactKey: Guid(87f438a8ef362ee48be726162efa7a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_10_delay-0.04s.gif using Guid(87f438a8ef362ee48be726162efa7a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72da95ce199e5fa90dbfc7f46d20e3fa') in 0.037274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Character/Animations/EnemyDeath.anim
+  artifactKey: Guid(8151a21a86e8443db8efcec43314dece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/EnemyDeath.anim using Guid(8151a21a86e8443db8efcec43314dece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1447ca5cdb9e9576538db70d43300a61') in 0.005534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Character/Animations/EnemyIdle.anim
+  artifactKey: Guid(6fbd3b4272fc84993b8317d782d39f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/EnemyIdle.anim using Guid(6fbd3b4272fc84993b8317d782d39f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497df6a4c88030da9b7a1d732a2e88a9') in 0.002705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006113 seconds.
+  path: Assets/NewResource/GameOverUI/frame_26_delay-0.1s.gif
+  artifactKey: Guid(ceff86c61d604d043be4d62285927d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_26_delay-0.1s.gif using Guid(ceff86c61d604d043be4d62285927d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ba5c993deb6246b9223bedec229309') in 0.064465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017459 seconds.
+  path: Assets/NewResource/New Background/frame_33_delay-0.04s.gif
+  artifactKey: Guid(dc54e17960b459540a6fe3f8a67249ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_33_delay-0.04s.gif using Guid(dc54e17960b459540a6fe3f8a67249ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3794bf77bedafcd19ebc2b1dfe905c8') in 0.026332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023756 seconds.
+  path: Assets/NewResource/New Background/frame_24_delay-0.04s.gif
+  artifactKey: Guid(a3ae4cde827657c46b3da9db06ada127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_24_delay-0.04s.gif using Guid(a3ae4cde827657c46b3da9db06ada127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114053eff14dc85c62fcf4e114a959c3') in 0.024638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021465 seconds.
+  path: Assets/Character/Sprites/PlayerRun.png
+  artifactKey: Guid(225a1eacac9dc41ae9a4d6adf7df8d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Sprites/PlayerRun.png using Guid(225a1eacac9dc41ae9a4d6adf7df8d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf15549880571904744b71e7caea96dd') in 0.119640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.116035 seconds.
+  path: Assets/NewResource/GameClearUI/frame_04_delay-0.13s.gif
+  artifactKey: Guid(8057f42aeb1c54142a96abb42a558141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_04_delay-0.13s.gif using Guid(8057f42aeb1c54142a96abb42a558141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc60381f5a2d6c6bd29b1f8c352785f') in 0.028337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030312 seconds.
+  path: Assets/NewResource/New Background/frame_19_delay-0.04s.gif
+  artifactKey: Guid(7b4315a30216d92488ee42df1aa49280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_19_delay-0.04s.gif using Guid(7b4315a30216d92488ee42df1aa49280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba03da3767f4f3cf430a2b2617bd8cb7') in 0.025230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022812 seconds.
+  path: Assets/NewResource/GameClearUI/frame_21_delay-0.13s.gif
+  artifactKey: Guid(a4137ddef0384784e88ab504d6ed662e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_21_delay-0.13s.gif using Guid(a4137ddef0384784e88ab504d6ed662e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1f7b9125f393dad92cdad9488e170e') in 0.027794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000818 seconds.
+  path: Assets/NewResource/New Background/frame_11_delay-0.04s.gif
+  artifactKey: Guid(61b0f0164f17c7846bce0b4233116eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_11_delay-0.04s.gif using Guid(61b0f0164f17c7846bce0b4233116eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122846178d5098743d5184880aa73f3b') in 0.023833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011911 seconds.
+  path: Assets/NewResource/GameClearUI/frame_06_delay-0.13s.gif
+  artifactKey: Guid(2bff2732aee84484cb5c81cc6fc95a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_06_delay-0.13s.gif using Guid(2bff2732aee84484cb5c81cc6fc95a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7234f5f62da6c6494bafb66b4bd33228') in 0.026606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014187 seconds.
+  path: Assets/Character/Sprites/EnemyDeath.png
+  artifactKey: Guid(0d22f52a800554566bb7a5bd62041458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Sprites/EnemyDeath.png using Guid(0d22f52a800554566bb7a5bd62041458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d06253df75608b28597947c13a5cbf9') in 0.041638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023443 seconds.
+  path: Assets/NewResource/GameClearUI/frame_17_delay-0.13s.gif
+  artifactKey: Guid(6e9739bf6e13b22409ed72a6dd7c85e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameClearUI/frame_17_delay-0.13s.gif using Guid(6e9739bf6e13b22409ed72a6dd7c85e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2b9860fffe28a54a43cf42694802ef') in 0.026295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022967 seconds.
+  path: Assets/Character/Sprites/PlayerJump.png
+  artifactKey: Guid(f43044f34a0b7424eb5deb0c04ff27c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Sprites/PlayerJump.png using Guid(f43044f34a0b7424eb5deb0c04ff27c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403353f790b556fa0c4ec3c1b9f2a43b') in 0.193541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031262 seconds.
+  path: Assets/NewResource/New Background/frame_13_delay-0.04s.gif
+  artifactKey: Guid(c544357e0c0f3a64da176e3af7929795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background/frame_13_delay-0.04s.gif using Guid(c544357e0c0f3a64da176e3af7929795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3d12febefd1c5eb383eb03c3134b0e') in 0.023127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018472 seconds.
+  path: Assets/NewResource/GameOverUI/frame_09_delay-0.1s.gif
+  artifactKey: Guid(53124eea7532c6247a2c881af98cbefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_09_delay-0.1s.gif using Guid(53124eea7532c6247a2c881af98cbefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ecf2d99efff7592ffe7a2be24b3f8e') in 0.062134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029403 seconds.
+  path: Assets/NewResource/GameOverUI/frame_16_delay-0.1s.gif
+  artifactKey: Guid(5a097ea25d90ac049bc589fa6ce5e445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/GameOverUI/frame_16_delay-0.1s.gif using Guid(5a097ea25d90ac049bc589fa6ce5e445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15014fb1a30faf3cdc8d39af924f1940') in 0.141122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.676644 seconds.
+  path: Assets/08. Sprites/불3.png
+  artifactKey: Guid(1134cf6d436a9254bb053acf019a892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08. Sprites/불3.png using Guid(1134cf6d436a9254bb053acf019a892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8b1c6a2f9524628dd3564b6de36e53') in 0.020893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.728038 seconds.
+  path: Assets/08. Sprites/Real.jpg
+  artifactKey: Guid(556f888c21aa0664ea7af262e4b37d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08. Sprites/Real.jpg using Guid(556f888c21aa0664ea7af262e4b37d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb8e406cffd68f07481c0f6427285c4') in 0.379323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.386767 seconds.
+  path: Assets/08. Sprites/Long Old Tree Platform.png
+  artifactKey: Guid(6909557ba6682424e82348123710a7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08. Sprites/Long Old Tree Platform.png using Guid(6909557ba6682424e82348123710a7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8502dffa44b02ff9c14bce40a3a7ec11') in 0.020519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.706810 seconds.
+  path: Assets/08. Sprites/HorrorIntro.jpg
+  artifactKey: Guid(5261cbbaeab8edd4db3cfedecbe7537a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08. Sprites/HorrorIntro.jpg using Guid(5261cbbaeab8edd4db3cfedecbe7537a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223f72a4267fa5c3c7c06bee1851f5fc') in 0.240868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.024781 seconds.
+  path: Assets/08. Sprites/GameOverUI.jpg
+  artifactKey: Guid(606c073e157f3284c81dcbe576cfcfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08. Sprites/GameOverUI.jpg using Guid(606c073e157f3284c81dcbe576cfcfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5ae3783e26cd1f02a1656e179348bc') in 0.200158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.437339 seconds.
+  path: Assets/08. Sprites/Background/발판.png
+  artifactKey: Guid(31832529b9e6dc44bbed4f7ad25be9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08. Sprites/Background/발판.png using Guid(31832529b9e6dc44bbed4f7ad25be9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586d85a8d0996d791fa5eae0e96f6232') in 0.051460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.491739 seconds.
+  path: Assets/08. Sprites/Background/눈알1.PNG
+  artifactKey: Guid(2eb7ed3bad2854346b426eb354a00062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/08. Sprites/Background/눈알1.PNG using Guid(2eb7ed3bad2854346b426eb354a00062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311a9bdb4660443720ef72d2b885d585') in 0.031514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.708972 seconds.
+  path: Assets/Audio/Walk01.wav
+  artifactKey: Guid(bdb49257b73be764a8c04e4f37302e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Walk01.wav using Guid(bdb49257b73be764a8c04e4f37302e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b39ab528a2ddcffdcad8543ef5e459') in 0.012367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.739071 seconds.
+  path: Assets/NewResource/New Background
+  artifactKey: Guid(546c93f34f813b749bcdf594a63ea061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewResource/New Background using Guid(546c93f34f813b749bcdf594a63ea061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d0034c764b64175cac27953b22b9a8') in 0.006927 seconds 
